@@ -1,10 +1,10 @@
 @import 'colors';
 
 header {
-    border-bottom: solid 4px $black;
+    border-bottom: solid 4px $highlight;
 }
 
 h1 {
     font-size: 3em;
-    color:  $dark-blue;
+    color:  $code-text-important;
 }

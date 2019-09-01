@@ -2,14 +2,26 @@
 
 .sidebar {
   width: 350px;
-  border: 2px solid #333;
-  background-color: $dark-blue;
+  border-right: 2px solid $highlight;
+  background-color: $background;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 a{
+  display: block;
+  padding: 5px 0px 0px 5px;
   width:100%;
   color: rgb(230, 222, 222);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lighten($background, 10%);
+}
+
+.icon {
+  padding-right: 5px;
+  color: $code-text-important;
 }
 

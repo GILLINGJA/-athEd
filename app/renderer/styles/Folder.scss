@@ -1,14 +1,12 @@
 @import './colors';
 
 .folder-div{
-    background-color: $dark-blue;
     padding-left:20px;
     width: 100%;
-    color: rgb(230, 222, 222);
+    color: $white;
 }
 
 .subfolder-div{
-    background: $dark-blue;
     width: 100%;
 }
 
@@ -21,5 +19,5 @@
 }
 a{
     width:100%;
-    color: rgb(230, 222, 222);
+    color: $white;
 }

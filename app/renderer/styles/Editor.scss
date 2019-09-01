@@ -3,14 +3,17 @@
 .editor-container {
   flex: 1;
   display: flex;
-  background-color: $dark-blue;
+  background-color: $code-background;
 }
 
 .editor {
   display: block;
   flex: 1;
   padding: 10px;
-  line-height: 40px;
-  background-color: $dark-blue;
-  color: rgb(230, 222, 222);
+  font-size: 16px;
+  line-height: 18px;
+  background-color: $code-background;
+  color: $white;
+  border: none;
+  outline: none;
 }

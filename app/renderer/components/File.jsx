@@ -4,6 +4,7 @@ import './../styles/File.scss';
 
 const {readFileSync} = require('fs');
 const {resolve} = require("path");
+
 export default class File extends Component {
     constructor(props){
         super(props);
@@ -25,8 +26,8 @@ export default class File extends Component {
     render() {
         return (
             <div className="file-div">
-                <a onClick={() => {this.showText()}}>
-                    {(this.state.fileOpen) ? <FaRegFileCode /> : <FaRegFile />} 
+                <a onClick={() => {this.showText();}} href="#">
+                    {(this.state.fileOpen) ? <FaRegFileCode className="icon" /> : <FaRegFile className="icon" />} 
                     {this.state.file}
                 </a>
             </div>

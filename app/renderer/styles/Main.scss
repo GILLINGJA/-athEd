@@ -2,13 +2,13 @@
 
 .container {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
     font-size: 12pt;
-    // border: 2px solid #0f0;
-    color: $black;
+    color: $white;
+    overflow: hidden;
 }
 
 .sub-container {
@@ -19,7 +19,7 @@
 }
 
 body {
-    background: $white;
+    background: $background;
 }
 
 .deep-container{
