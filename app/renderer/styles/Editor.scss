@@ -1,0 +1,16 @@
+@import 'colors';
+
+.editor-container {
+  flex: 1;
+  display: flex;
+  background-color: $dark-blue;
+}
+
+.editor {
+  display: block;
+  flex: 1;
+  padding: 10px;
+  line-height: 40px;
+  background-color: $dark-blue;
+  color: rgb(230, 222, 222);
+}
